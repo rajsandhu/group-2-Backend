@@ -1,7 +1,3 @@
-provider "aws" {
-  region = "eu-central-1"
-}
-
 resource "aws_s3_bucket" "group2_backend_bucket" {
   bucket = "group-2-elk-4073724601872"
 
