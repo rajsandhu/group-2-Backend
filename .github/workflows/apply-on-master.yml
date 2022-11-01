@@ -1,4 +1,4 @@
-name: Terraform plan for every branch in Backend repo
+name: Terraform deployment (apply only on master branch)
 on: [push]
 jobs:
   terraform-deployment:
